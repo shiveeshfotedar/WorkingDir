@@ -1,4 +1,5 @@
 import TaskComponent from "./Components/TaskComponent";
+import TaskInput from "./Components/TaskInput"
 import styled from "styled-components";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div>
       <BodyStyle>
         <Lists>
+        <TaskInput  />
           <TaskComponent />
         </Lists>
         </BodyStyle>
