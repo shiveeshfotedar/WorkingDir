@@ -4,7 +4,11 @@ import styled from "styled-components";
 const TaskComponent = () => {
   return (
     <div>
-      <Taskbox>this is a task</Taskbox>
+      <Taskbox>
+        <h1>This is a task</h1>
+        <button>V</button>
+        <button>X</button>
+      </Taskbox>
     </div>
   );
 };
@@ -12,5 +16,10 @@ const TaskComponent = () => {
 export default TaskComponent;
 
 const Taskbox = styled.div`
-  background-color: blue;
+  display: flex;
+  border: 2px solid red;
+  //padding: 10px;
+  border-radius: 25px;
+  width: 50%;
+  justify-content: space-between;
 `;
