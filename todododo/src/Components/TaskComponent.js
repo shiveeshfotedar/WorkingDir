@@ -22,4 +22,10 @@ const Taskbox = styled.div`
   border-radius: 25px;
   width: 50%;
   justify-content: space-between;
+  > h1 {
+    color: red;
+  }
+  > button {
+    background-color: green;
+  }
 `;

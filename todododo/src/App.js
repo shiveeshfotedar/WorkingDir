@@ -1,10 +1,14 @@
 import TaskComponent from "./Components/TaskComponent";
+import TaskInput from "./Components/TaskInput"
 import styled from "styled-components";
 
 function App() {
   return (
     <div>
       <Lists>
+        <TaskInput  />
+        <TaskComponent />
+        <TaskComponent />
         <TaskComponent />
       </Lists>
     </div>
@@ -13,6 +17,4 @@ function App() {
 
 export default App;
 
-const Lists = styled.div`
-
-`
+const Lists = styled.div``;
