@@ -10,7 +10,7 @@ function App() {
         <TaskInput  />
           <TaskComponent />
         </Lists>
-        </BodyStyle>
+      </BodyStyle>
     </div>
   );
 }
